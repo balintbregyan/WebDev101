@@ -1,0 +1,77 @@
+Advanced Javascript Asim Hussain
+
+Youtube ez egy eleg jo csatorna:
+https://www.youtube.com/@TraversyMedia/videos
+
+HTML,CSS,JS Crash Course, React Crash course
+
+FreeCodeCamp:
+
+https://www.freecodecamp.org/
+
+Odin Project :
+
+https://www.theodinproject.com/
+
+
+HyperText Markup Language
+
+To structure and describe the content of a webpage. It is a MARKUP language.
+
+Elements:
+
+	- P as paragraph
+	- Links
+	- Heading
+	- Images
+	- Video
+	- Etc…
+
+<p>HTML is a markup language</p> 
+
+
+<p>Content</p> <----
+
+
+Indentation: 
+
+<h1>-----></h6>
+
+Only ONE h1 (very good practice)!
+
+<!--
+Comment out sections
+-->
+
+This is the idea of semantic HTML. 
+A semantic element clearly describes its meaning to both the browser and the developer.
+
+
+<b>Can be nested in HTML elements like paragraphs</b>
+<strong>Use instead of B</strong> 
+
+<img /> Image tag doesn't have content, therefore the closing is only with / character and >. 
+
+They have attributes, in this case the source attribute and the alt attribute. 
+
+Alt stands for alternative text. This is very important for search engines to know what is exactly the image itself.  This is also important for accessibility for example for blind people to access the site.
+
+Alt can also be used in case of bug finding, as if the image doesn't load it will print out the text in the alt field in order to know what is missing.
+
+Semantic HTML:
+
+Semantic html is used to give meaning to our elements, search engine optimizations like for google searches, accessibility for screen readers. 
+
+<nav>Is like a container for structuring the html elements</nav>
+
+<div>Div is not part of HTML 5 semantic concept anymore, it shall only be used as a container if we really don't want to give any meaning to the section we are creating.</div>
+
+
+
+
+
+ 
+
+
+
+
