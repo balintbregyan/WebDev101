@@ -40,7 +40,9 @@
           height="50"
         />
 
-        <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+        <p id="author">
+          Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
+        </p>
 
         <img
           src="img/post-img.jpg"
@@ -122,7 +124,7 @@
       <h4>Popular posts</h4>
       <!-- This is how the list should be used to be semantically correct. Always wrap <li> into <ul> -->
       <ul>
-        <li>
+        <li class="removing-bullets">
           <img
             src="img/related-1.jpg"
             alt="Person programming"
@@ -130,9 +132,9 @@
             height="75"
           />
           <a href="#" target="_blank">How to learn Web Development</a>
-          <p>By Jonas Schmedtmann</p>
+          <p class="related-author">Jonas Schmedtmann</p>
         </li>
-        <li>
+        <li class="removing-bullets">
           <img
             src="img/related-2.jpg"
             alt="Lightening bolt"
@@ -140,9 +142,9 @@
             height="75"
           />
           <a href="#" target="_blank">The Unknown Powers of CSS</a>
-          <p>By Jim Dillon</p>
+          <p class="related-author">By Jim Dillon</p>
         </li>
-        <li>
+        <li class="removing-bullets">
           <img
             src="img/related-3.jpg"
             alt="A screen with code"
@@ -150,12 +152,12 @@
             height="75"
           />
           <a href="#" target="_blank">Why JavaScript is Awesome</a>
-          <p>By Matilda</p>
+          <p class="related-author">By Matilda</p>
         </li>
       </ul>
     </aside>
     <footer>
-      <p>&copy; 2025 Balint Bregyan WebDev 101 HTML Course.</p>
+      <p id="copywright">&copy; 2025 Balint Bregyan WebDev 101 HTML Course.</p>
     </footer>
   </body>
 </html>
