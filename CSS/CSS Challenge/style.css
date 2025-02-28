@@ -1,0 +1,68 @@
+article {
+  border: 5px solid black;
+}
+
+h2 {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.11);
+}
+
+.price-style {
+  font-weight: 800;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.shipping-style {
+  font-size: 12px;
+  font-weight: 750;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  color: gray;
+}
+
+.description-style {
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.info-style {
+  font-size: 14px;
+  font-family: sans-serif;
+  color: black;
+}
+
+.product-header-style {
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+.list-item-style {
+  font-size: 14px;
+  font-family: sans-serif;
+  color: black;
+  list-style-type: square;
+}
+
+.button-style {
+  font-size: 17px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+  border: none;
+  transition-duration: 0s;
+}
+
+.button-style:hover {
+  color: black;
+  background-color: white;
+}
