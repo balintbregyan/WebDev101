@@ -1,14 +1,18 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
 article {
   border: 5px solid black;
 }
-
-h2 {
-  font-family: sans-serif;
+/* Product Name */
+.product-title {
   text-transform: uppercase;
   text-align: center;
   background-color: rgba(128, 128, 128, 0.11);
 }
-
+/* Product Information */
 .price-style {
   font-weight: 800;
   font-size: 20px;
@@ -17,44 +21,45 @@ h2 {
 
 .shipping-style {
   font-size: 12px;
-  font-weight: 750;
-  font-family: sans-serif;
+  font-weight: bold;
+
   text-transform: uppercase;
-  color: gray;
+  color: #777;
 }
 
 .description-style {
   font-size: 14px;
-  font-family: sans-serif;
 }
 
-.info-style {
-  font-size: 14px;
-  font-family: sans-serif;
+.info-style:link,
+.info-style:visited {
+  font-size: 15px;
   color: black;
 }
 
+.info-style:hover,
+.info-style:active {
+  text-decoration: none;
+}
+
+/* Product Details */
 .product-header-style {
   font-size: 15px;
-  font-family: sans-serif;
   font-weight: 600;
   text-transform: uppercase;
   color: black;
 }
 
-a:hover {
-  text-decoration: none;
-}
 .list-item-style {
   font-size: 14px;
-  font-family: sans-serif;
   color: black;
   list-style-type: square;
 }
 
+/* Button */
+
 .button-style {
   font-size: 17px;
-  font-family: sans-serif;
   text-transform: uppercase;
   background-color: black;
   color: white;
@@ -65,4 +70,5 @@ a:hover {
 .button-style:hover {
   color: black;
   background-color: white;
+  cursor: pointer;
 }
