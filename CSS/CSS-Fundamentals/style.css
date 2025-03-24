@@ -31,6 +31,7 @@ body {
 
 nav {
   font-size: 18px;
+  text-align: center;
 }
 
 article {
@@ -196,15 +197,18 @@ a:active {
   /* margin: 100px; */
 }
 
+/* .main-header nav a:link {
+  margin-top: 100px;
+} */
+
 nav a:link {
   /* background-color: orangered;
   margin: 20px;
   padding: 20px;
   display: block; */
-
   margin-right: 30px;
   margin-top: 10px;
-  /* display: inline-block; */
+  display: inline-block;
 }
 
 nav a:link:last-child {
@@ -234,7 +238,6 @@ h3 + p::first-line {
 
 h2 {
   position: relative;
-  background-color: orange;
 }
 
 h2::after {

@@ -6,6 +6,7 @@
 body {
   font-family: sans-serif;
   line-height: 1.4;
+  position: relative;
 }
 
 /* Product */
@@ -22,6 +23,22 @@ body {
   background-color: rgba(128, 128, 128, 0.11);
   padding: 15px;
 }
+
+/* Sale Style */
+.sale-style {
+  font-size: 13px;
+  font-weight: bold;
+  background-color: red;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  display: inline-block;
+  position: absolute;
+  padding: 10px;
+  top: -15px;
+  left: 155px;
+}
+
 /* Product Information */
 .price-style {
   font-weight: 800;
@@ -40,8 +57,47 @@ body {
 
 .description-style {
   font-size: 14px;
+  padding-bottom: 10px;
 }
 
+/* Color Options */
+
+.color-list {
+  list-style-type: none;
+  padding-top: 20px;
+}
+.color-black {
+  background-color: black;
+  color: black;
+  padding: 5px;
+}
+.color-blue {
+  background-color: blue;
+  color: blue;
+  padding: 5px;
+}
+.color-red {
+  background-color: red;
+  color: red;
+  padding: 5px;
+}
+.color-green {
+  background-color: green;
+  color: green;
+  padding: 5px;
+}
+.color-yellow {
+  background-color: yellow;
+  color: yellow;
+  padding: 5px;
+}
+.color-brown {
+  background-color: brown;
+  color: brown;
+  padding: 5px;
+}
+
+/* Link Styling */
 .info-style:link,
 .info-style:visited {
   font-size: 15px;
