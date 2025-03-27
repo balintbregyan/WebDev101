@@ -22,7 +22,6 @@ body {
 
 .main-header {
   background-color: #f7f7f7;
-  background-color: red;
   /* padding: 20px;
   padding-left: 40px;
   padding-right: 40px; */
@@ -302,18 +301,15 @@ nav {
 }
 
 article {
-  background-color: green;
   width: 825px;
   float: left;
 }
 
 aside {
-  background-color: red;
   width: 300px;
   float: right;
 }
 
 footer {
-  background-color: yellow;
   clear: both;
 }
