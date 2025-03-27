@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 1200px;
   /* margin-left: auto;
   margin-right: auto; */
   margin: 0 auto;
@@ -275,7 +275,6 @@ nav p {
 }
 
 .author {
-  /* padding-left: 80px; */
   float: left;
   margin-top: 10px;
   margin-left: 20px;
@@ -299,5 +298,22 @@ nav {
 .clearfix::after {
   content: "";
   display: block;
+  clear: both;
+}
+
+article {
+  background-color: green;
+  width: 825px;
+  float: left;
+}
+
+aside {
+  background-color: red;
+  width: 300px;
+  float: right;
+}
+
+footer {
+  background-color: yellow;
   clear: both;
 }
