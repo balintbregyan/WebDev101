@@ -268,7 +268,7 @@ nav p {
 
 /* FLOATS */
 
-.author-img {
+/* .author-img {
   float: left;
   margin-bottom: 20px;
 }
@@ -285,16 +285,16 @@ h1 {
 
 nav {
   float: right;
-}
+} */
 
 /* CLEAR */
-.clear {
+/* .clear {
   clear: both;
-}
+} */
 
 /* CLEARFIX HACK */
 
-.clearfix::after {
+/* .clearfix::after {
   content: "";
   display: block;
   clear: both;
@@ -312,4 +312,4 @@ aside {
 
 footer {
   clear: both;
-}
+} */
