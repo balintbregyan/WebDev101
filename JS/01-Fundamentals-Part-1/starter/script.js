@@ -105,7 +105,7 @@ x = y = 25 - 10 - 5; // x = y = 10, x = 10
 console.log(x, y);
 
 const averageAge = ageJonas + ageSarah / 2;
-console.log(ageJonas, ageSarah, averageAge);*/
+console.log(ageJonas, ageSarah, averageAge);
 
 const firstName = "Balint";
 const job = "student";
@@ -125,4 +125,22 @@ console.log(
   "String with \n\
 multiple \n\
 lines"
-);
+);*/
+
+// const age = 15;
+
+// if (age >= 18) {
+//   console.log("Balint can start driving license! 🚗");
+// } else {
+//   const yearsLeft = 18 - age;
+//   console.log(`Balint is too young. Wait another ${yearsLeft} years :)`);
+// }
+
+const birthYear = 2012;
+let century;
+if (birthYear <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+console.log(`I was born in the ${century}th century`);
