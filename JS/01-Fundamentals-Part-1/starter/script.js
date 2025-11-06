@@ -125,16 +125,16 @@ console.log(
   "String with \n\
 multiple \n\
 lines"
-);*/
+);
 
-// const age = 15;
+const age = 15;
 
-// if (age >= 18) {
-//   console.log("Balint can start driving license! 🚗");
-// } else {
-//   const yearsLeft = 18 - age;
-//   console.log(`Balint is too young. Wait another ${yearsLeft} years :)`);
-// }
+if (age >= 18) {
+  console.log("Balint can start driving license! 🚗");
+} else {
+  const yearsLeft = 18 - age;
+  console.log(`Balint is too young. Wait another ${yearsLeft} years :)`);
+}
 
 const birthYear = 2012;
 let century;
@@ -143,4 +143,24 @@ if (birthYear <= 2000) {
 } else {
   century = 21;
 }
-console.log(`I was born in the ${century}th century`);
+console.log(`I was born in the ${century}th century`);*/
+
+// Type Conversion
+const inputYear = "1991";
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
+
+console.log(Number("Balint"));
+console.log(typeof NaN);
+
+console.log(String(23), 23);
+
+// Type Coercion
+console.log("I am " + 23 + " years old");
+console.log("23" - "10" - "3");
+console.log("23" * "2");
+console.log("23" / "2");
+
+let n = "1" + 1;
+n = n - 1;
+console.log(n);
