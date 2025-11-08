@@ -185,7 +185,7 @@ if (height) {
   console.log("YAY! Height is defined");
 } else {
   console.log("Height is UNDEFINED");
-}*/
+}
 
 // Equality operators
 //
@@ -205,4 +205,28 @@ if (favourite === 23) {
   console.log("Number is not 23 or 7 or 9");
 }
 
-if (favourite !== 23) console.log("Why not 23?");
+if (favourite !== 23) console.log("Why not 23?");*/
+
+const hasDriverLicense = true; // A
+const hasGoodVision = true; // B
+
+console.log(hasDriverLicense && hasGoodVision);
+console.log(hasDriverLicense || hasGoodVision);
+console.log(!hasDriverLicense);
+
+const shouldDrive = hasDriverLicense && hasGoodVision;
+
+// if (hasDriverLicense && hasGoodVision) {
+//   console.log("Sarah is able to drive!");
+// } else {
+//   console.log("Someone else should drive...");
+// }
+
+const isTired = false; // C
+console.log(hasDriverLicense || hasGoodVision || isTired);
+
+if (hasDriverLicense && hasGoodVision && !isTired) {
+  console.log("Sarah is able to drive!");
+} else {
+  console.log("Someone else should drive...");
+}
